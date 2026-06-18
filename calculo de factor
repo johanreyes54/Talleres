@@ -1,0 +1,10 @@
+Proceso ejemplo
+    Escribir "Ingrese los valores de a, b, c y d:"
+	Leer a, b, c, d 
+	suma <- a + b
+	resta <- suma - 4
+	numerador <- resta ^ 2
+	denominador <- c * d
+	resultado <- numerador / denominador
+	Escribir "El resultado es: ", resultado
+FinProceso
