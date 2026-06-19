@@ -1,0 +1,24 @@
+Algoritmo ControlAccesoMontanaRusa
+    Definir edad Como Entero
+    Definir altura Como Entero
+    
+    Escribir "Ingrese su edad en años:"
+    Leer edad
+    
+    Escribir "Ingrese su altura en centímetros:"
+    Leer altura
+    
+    Si edad > 12 Y altura > 140 Entonces
+        Escribir "¡Acceso concedido! Puede subir a la montaña rusa."
+    Sino
+        Si edad <= 12 Y altura <= 140 Entonces
+            Escribir "Acceso denegado: No cumple con la edad mínima (mayor a 12) ni con la altura mínima (mayor a 140 cm)."
+        Sino
+            Si edad <= 12 Entonces
+                Escribir "Acceso denegado: No cumple con la edad mínima. Debe ser mayor de 12 años."
+            Sino
+                Escribir "Acceso denegado: No cumple con la altura mínima. Debe medir más de 140 cm."
+            FinSi
+        FinSi
+    FinSi
+FinAlgoritmo
