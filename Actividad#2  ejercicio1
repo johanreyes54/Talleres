@@ -1,0 +1,24 @@
+Algoritmo CalculadoraSalarioConBonos
+    Definir sueldoBase, antiguedad Como Real
+    Definir bono, salarioFinal Como Real
+    
+    Escribir "Ingrese el sueldo base del trabajador ($):"
+    Leer sueldoBase
+    
+    Escribir "Ingrese los años de antigüedad del trabajador:"
+    Leer antiguedad
+    
+    Si (antiguedad >= 10) || (sueldoBase < 1000) Entonces
+        bono <- sueldoBase * 0.20
+    Sino 
+        Si (antiguedad > 5) && (antiguedad < 10) Entonces
+            bono <- sueldoBase * 0.10
+        Sino
+            bono <- 0
+        FinSi
+    FinSi
+    
+    salarioFinal <- sueldoBase + bono
+    
+    Escribir "Salario Final a pagar: $", salarioFinal
+FinAlgoritmo
