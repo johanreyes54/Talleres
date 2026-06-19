@@ -1,15 +1,24 @@
 Algoritmo Funciones_Cadena
-    Definir cad1,cad2 como cadena;
-    Definir num como Entero;
-    cad1<-"informática";
-    Escribir "La longitud de cad1 es ",longitud(cad1);
-    Escribir "El primer carácter de cad1 es ", subcadena(cad1,0,0);
-    Escribir "El último carácter de cad1 es ", subcadena(cad1,longitud(cad1)-1,longitud(cad1)-1);
-    Escribir "La cad1 en mayúsculas es ",mayusculas(cad1);
-    cad2<-concatenar(cad1," es muy interesante");
-    Escribir cad2;
-    num<-ConvertirANumero("10");
-    Escribir num;
-    Escribir Concatenar("El número es ",ConvertirATexto(num));
-    Escribir "El número es ",num;
+    // 1. Declaración de variables
+    Definir cad1, cad2 Como Cadena
+    Definir num Como Entero
+    
+    // 2. Asignación y análisis de la cadena original
+    cad1 <- "informática"
+    
+    Escribir "La longitud de cad1 es: ", longitud(cad1)
+    Escribir "El primer carácter de cad1 es: ", subcadena(cad1, 0, 0)
+    Escribir "El último carácter de cad1 es: ", subcadena(cad1, longitud(cad1) - 1, longitud(cad1) - 1)
+    Escribir "La cad1 en mayúsculas es: ", mayusculas(cad1)
+    
+    // 3. Concatenación de texto
+    cad2 <- concatenar(cad1, " es muy interesante")
+    Escribir cad2
+    
+    // 4. Conversión de tipos de datos
+    num <- ConvertirANumero("10")
+    Escribir num
+    
+    Escribir concatenar("El número es ", ConvertirATexto(num))
+    Escribir "El número es ", num
 FinAlgoritmo
