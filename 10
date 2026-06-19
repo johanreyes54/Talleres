@@ -1,0 +1,25 @@
+Algoritmo EjerciciosOperadoresLogicos
+    Definir a, b, c, d Como Entero
+    Definir p1, p2, p3, p4 Como Logico
+    
+    Escribir "Ingrese el valor de a:"
+    Leer a
+    Escribir "Ingrese el valor de b:"
+    Leer b
+    Escribir "Ingrese el valor de c:"
+    Leer c
+    Escribir "Ingrese el valor de d:"
+    Leer d
+    
+    p1 <- (a < 17) Y (b < 17)
+    p2 <- (a == b) Y (b == c) Y (a <> d)
+    p3 <- (a < b) Y (b < c) Y (a < d) Y (d < c)
+    p4 <- (a == b) O (a == c) O (b == c)
+    
+    Escribir "--------------------------------------------------"
+    Escribir "Predicado 1 (a y b menores que 17): ", p1
+    Escribir "Predicado 2 (a, b y c idénticos y distintos de d): ", p2
+    Escribir "Predicado 3 (b y d entre a y c): ", p3
+    Escribir "Predicado 4 (al menos dos idénticos entre a, b y c): ", p4
+    Escribir "--------------------------------------------------"
+FinAlgoritmo
