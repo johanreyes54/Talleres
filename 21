@@ -1,0 +1,9 @@
+Algoritmo ConteoTresEnTres
+	Definir i Como Entero
+	
+	// Arranca en 0, va hasta 33 y avanza de 3 en 3
+	Para i <- 0 Hasta 33 Con Paso 3 Hacer
+		Escribir i
+	FinPara
+	
+FinAlgoritmo
