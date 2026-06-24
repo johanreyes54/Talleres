@@ -1,0 +1,12 @@
+Algoritmo CuentaRegresiva
+    Definir i Como Entero
+    
+    Escribir "Iniciando lanzamiento:"
+    
+    // Cuenta desde 5 hasta 1, restando 1 en cada paso
+    Para i <- 5 Hasta 1 Con Paso -1 Hacer
+        Escribir i
+    FinPara
+    
+    Escribir "¡Despegue!"
+FinAlgoritmo
