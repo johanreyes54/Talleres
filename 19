@@ -4,7 +4,7 @@ Algoritmo CuentaRegresiva
     Escribir "Iniciando lanzamiento:"
     
     // Cuenta desde 5 hasta 1, restando 1 en cada paso
-    Para i <- 5 Hasta 1 Con Paso -1 Hacer
+    Para i <- 10 Hasta 1 Con Paso -1 Hacer
         Escribir i
     FinPara
     
