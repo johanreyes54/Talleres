@@ -1,0 +1,33 @@
+Algoritmo EvaluarEdadesEncuesta
+    // Definir las variables para almacenar las edades
+    Definir edadHeidy, edadKevin, edadJulian Como Entero
+    
+    // Solicitar y leer la edad de Heidy
+    Escribir "Ingrese la edad de Heidy:"
+    Leer edadHeidy
+    
+    // Solicitar y leer la edad de Kevin
+    Escribir "Ingrese la edad de Kevin:"
+    Leer edadKevin
+    
+    // Solicitar y leer la edad de Julian
+    Escribir "Ingrese la edad de Julian:"
+    Leer edadJulian
+    
+    Escribir "" // Línea en blanco para separar los resultados
+    
+    // Evaluar la edad de Heidy
+    Si edadHeidy > 20 Entonces
+        Escribir "Heidy, participas en la encuesta."
+    FinSi
+    
+    // Evaluar la edad de Kevin
+    Si edadKevin > 20 Entonces
+        Escribir "Kevin, participas en la encuesta."
+    FinSi
+    
+    // Evaluar la edad de Julian
+    Si edadJulian > 20 Entonces
+        Escribir "Julian, participas en la encuesta."
+    FinSi
+FinAlgoritmo
