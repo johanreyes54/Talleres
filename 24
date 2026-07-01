@@ -1,0 +1,11 @@
+// Subproceso que recibe un dato (parametro)
+SubProceso mostrarMensajePersonalizado(Como_Caracter)
+	Escribir "Mensaje del sistema: ", texto_a_mostrar
+FinSubProceso
+
+Algoritmo EJERCICIO_27
+	// Ahora llamamos a la misma funcion con mensajes distintos
+	mostrarMensajePersonalizado("Iniciando sistema...")
+	mostrarMensajePersonalizado("Abstraccion completada.")
+	mostrarMensajePersonalizado("Esperando entrada de usuario...")
+FinAlgoritmo
